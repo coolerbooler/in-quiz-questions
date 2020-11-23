@@ -749,3 +749,12 @@ def __init__(self):
 - [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is a regular function that belongs to a class, but it must return None`
 - [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
+
+
+###60 What would happen if you did not alter the state of an element that an algorith is operating on recursively? 
+
+- [ ] `You do not alter the state of the element the algorithm is recuring on` 
+- [ ] `You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on`
+- [ ] `You Would get a runtime error: maximum depth exceeded`
+- [ ] `A function using recursion would return none`
+
