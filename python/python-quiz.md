@@ -749,3 +749,50 @@ def __init__(self):
 - [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is a regular function that belongs to a class, but it must return None`
 - [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
+
+
+###60 What would happen if you did not alter the state of an element that an algorith is operating on recursively? 
+
+- [ ] `You do not alter the state of the element the algorithm is recuring on` 
+- [ ] `You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on`
+- [X] `You Would get a runtime error: maximum depth exceeded`
+- [ ] `A function using recursion would return none`
+
+###61  What is the runtime complexity of searching for an item in a binary Search Tree?
+
+- [ ] `The runtime for searching in a binary tree is O(1) because each node act as a key, similar to a dictionary` 
+- [ ] `The runtime for searching in a binary tree is O(n!) because every node must be compared to every other node`
+- [X] `The runtime for searching in a binary tree is generally o(h) where H is the height of the tree`
+- [ ] `The runtime for searching in a binary tree is o(n) because every node in the tree must be visited`
+
+###62 Why would you use MIXIN ?
+- [ ] `You use mixin to force a function to accept an argument at runtime even if the argument was not included in the functions definition` 
+- [ ] `You use mixin to allow a decorator to accept keyword arguments`
+- [ ] `You use mixin to make sure that a class's attributes and methods do not interfere with global variables and functions`
+- [X] `If you have many classes that have the same functionality, you'd use mixin to define that functionality `(Not Sure ) 
+
+
+###63 What is the runtime complexity of the following function? 
+
+def print_alpha_nums(abc_list, num_list):
+    for char in abc_list:
+        for num in num_list:
+            print(char, num)
+    return
+
+- [X] `O(2^n) Also called exponential time ` (Not sure ) 
+- [ ] `O(n) Also called linear time `
+- [ ] `O(log n) Also called logarthmic time `
+- [ ] `O(n,m) Also called quadratic time ` 
+
+
+
+### 64 What is the runtime complexity of adding an item to the stack and removing the item from the stack ? 
+- [ ] `Adds an item to the stack in o(1) time and remove items in the stack o(n) time `
+- [X] `Adds an item to the stack in o(1) time and remove items in the stack o(1) time  `
+- [ ] `Adds an item to the stack in o(n) time and remove items in the stack o(1) time  `
+- [ ] `Adds an item to the stack in o(n) time and remove items in the stack o(n) time  ` 
+
+
+
+
